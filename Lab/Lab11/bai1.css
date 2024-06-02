@@ -1,0 +1,37 @@
+table{
+    border-collapse: collapse;
+    width: 100%;
+    border-color: green;
+}
+.null{
+    width: 50px;
+}
+.tt{
+    height: 50px;
+    width: 70px;
+}
+.tg{
+    height: 80px;
+    width: 70px;
+}
+.vong{
+    height: 60px;
+    background-color: greenyellow;
+    font-weight: bold;
+}
+.doivn{
+    color:red;
+    font-weight: bold;
+}
+.ttvn{
+    color: red;
+}
+td{
+    font-weight: bold;
+}
+th{
+    height: 40px;
+}
+thead th{
+    background-color: rgba(34, 188, 34, 0.934);
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dang ky</title>
+    <style>
+        form{
+            font-variant: small-caps;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    
+    <form action="xuly.php"
+            method="post"
+            enctype="multipart/form-data">
+        <label for="">Ho va Ten:</label><br>
+        <input type="text" name="name" placeholder="name"><br>
+        <label for="">Gioi Tinh:</label>
+        <input type="radio" name="gioitinh" value="nam" checked>Nam
+        <input type="radio" name="gioitinh" value="nu">Nu<br>
+        <label for="">Hinh Anh</label><br>
+        <input type="file" name="hinhanh"><br>
+        <label for="">Quoc Tich:</label><br>
+        <select name="quoctich" id="">
+            <option value="vietnam">Viet Nam</option>
+            <option value="my">Uk</option>
+            <option value="usa">Usa</option>
+        </select><br>
+        <label for="">So Thich:</label><br>
+        <input type="checkbox" name="sothich" value="thethao">The Thao
+        <input type="checkbox" name="sothich" value="dulich">Du Lich
+        <input type="checkbox" name="sothich" value="amnhac">Am Nhac
+        <input type="checkbox" name="sothich" value="amthuc">Am Thuc<br>
+        <label for="">Ghi chu:</label><br>
+        <textarea name="ghichu" id="" cols="30" rows="10"></textarea><br>
+        <hr>
+        <input type="submit" value="Dang ky">
+        <input type="reset" value="Xoa">
+    </form>
+</body>
+</html>
