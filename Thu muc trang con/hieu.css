@@ -1,0 +1,67 @@
+/* Cách 1: dùng float để làm
+.logo{
+    float: left;
+    width: 200px;
+}
+nav{
+    float: right;
+}
+.header-top{
+    display: inline-block;
+    width: 100%;
+} */
+
+/* Cách 2: dùng thuộc tính flex */
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    
+}
+.header-top a{
+    text-decoration: none;
+    color: white;
+    margin: 10px; ;
+}
+.header-top a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+.logo{
+    width: 200px;
+}
+h3{
+    text-align: center;
+}
+.contai {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.column {
+    flex-basis: 30%;
+    box-sizing: border-box;
+    margin: 0.5em;
+}
+.shape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0; /*Thêm padding trên dưới*/
+}
+.tatanh{
+    float: left;
+    }
